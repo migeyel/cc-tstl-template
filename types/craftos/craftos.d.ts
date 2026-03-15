@@ -472,6 +472,7 @@ declare class MonitorPeripheral implements IPeripheral, ITerminal {
     setPixels(x: number, y: number, data: Color | (string | Color[])[]): void;
     getFrozen(): boolean;
     setFrozen(frozen: boolean): void;
+    getTextScale(): number;
     setTextScale(scale: number): void;
 }
 
